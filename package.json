@@ -1,0 +1,23 @@
+{
+  "name": "jv-redux",
+  "version": "1.0.0",
+  "description": "Practicing Redux with the teacher Jorge Vega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlcarrascof/JV-Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlcarrascof/JV-Redux/issues"
+  },
+  "homepage": "https://github.com/jlcarrascof/JV-Redux#readme",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
