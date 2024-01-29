@@ -22,3 +22,6 @@ console.log(store.getState());
 store.dispatch({ type: 'AUMENTAR_CONTADOR' });
 store.dispatch({ type: 'AUMENTAR_CONTADOR' });
 store.dispatch({ type: 'AUMENTAR_CONTADOR' });
+store.dispatch({ type: 'AUMENTAR_CONTADOR' });
+store.dispatch({ type: 'AUMENTAR_CONTADOR' });
+console.log(store.getState());
