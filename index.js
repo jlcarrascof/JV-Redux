@@ -1,3 +1,4 @@
+// Create developing branch to make the pull request
 const { createStore } = require('redux');
 
 const AUMENTAR_CONTADOR = 'AUMENTAR_CONTADOR';
