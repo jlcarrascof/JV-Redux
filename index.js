@@ -34,7 +34,11 @@ const print = () => {
 
 store.subscribe(print);
 
-store.dispatch({type: AUMENTAR_CONTADOR});
+const aumentarContador = () => {
+    return {type: AUMENTAR_CONTADOR};
+};
+
+store.dispatch(aumentarContador());
 store.dispatch({type: DECREMENTAR_CONTADOR});
 store.dispatch({type: CAMBIAR_NOMBRE, payload: 'Juan'});
 store.dispatch({type: AGREGAR_NUMERO, payload: 10});
