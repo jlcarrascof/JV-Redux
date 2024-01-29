@@ -1,7 +1,10 @@
 const { createStore } = require('redux');
 
 const initialState = {
-  count: 0
+  count: 0, 
+  users: [],
+  friends: {},
+  darkMode: true,
 };
 
 const reducer = (state = initialState, action) => {
@@ -15,3 +18,4 @@ const reducer = (state = initialState, action) => {
 
 const store = createStore(reducer);
 
+store.dispatch({ type: 'AUMENTAR_CONTADOR' });
