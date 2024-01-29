@@ -18,4 +18,7 @@ const reducer = (state = initialState, action) => {
 
 const store = createStore(reducer);
 
+console.log(store.getState());
+store.dispatch({ type: 'AUMENTAR_CONTADOR' });
+store.dispatch({ type: 'AUMENTAR_CONTADOR' });
 store.dispatch({ type: 'AUMENTAR_CONTADOR' });
